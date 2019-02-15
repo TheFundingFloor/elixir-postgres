@@ -1,4 +1,4 @@
-FROM bitwalker/alpine-elixir:1.6.5
+FROM fundingfloor/tff-elixir:1.8
 
 RUN apk --no-cache  add -q postgresql postgresql-contrib openrc
 
